@@ -1,0 +1,14 @@
+{
+  "name": "@lerna-repo/common",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "chengeng <chengeng@bloggeng.com>",
+  "homepage": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.1"
+  }
+}

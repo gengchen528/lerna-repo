@@ -1,0 +1,36 @@
+{
+  "name": "root",
+  "private": false,
+  "scripts": {
+    "dev:live": "lerna --scope @lerna-repo/diandian-live run dev --stream",
+    "dev:tools": "lerna --scope @lerna-repo/diandian-tools run dev --stream",
+    "build:live": "lerna --scope @lerna-repo/diandian-live run build --stream",
+    "build:tools": "lerna --scope @lerna-repo/diandian-tools run build --stream",
+    "start:live": "lerna --scope @lerna-repo/diandian-live run start --stream",
+    "start:tools": "lerna --scope @lerna-repo/diandian-tools run start --stream"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "@nuxt/types": "^2.15.3",
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "husky": "^4.3.8",
+    "lerna": "^4.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.12.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^21.0.0"
+  }
+}
